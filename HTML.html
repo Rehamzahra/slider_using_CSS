@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slides</title>
+
+<style>
+    *{padding: 0;margin: 0;}
+    .container{width:800px ; margin: auto; overflow: hidden;}
+    .ul{
+        display: inline-flex;
+        position: relative; 
+        animation: x 4s ease-in-out infinite;
+    }
+   .list1{
+    height: 800px ;
+    width: 800px;
+   }
+   .list2{
+    height: 800px ;
+    width: 800px;
+   }
+   .list3{
+    height: 800px ;
+    width: 800px;
+   }
+   .list4{
+    height: 800px ;
+    width: 800px;
+   }
+    @keyframes x {
+        0%{right: 0;}
+        35%{right: 800px;}
+        70%{right: 1600px}
+        100%{right: 2400px}
+    }
+   
+</style>
+
+</head>
+<body>
+    <div class="container">
+         <ul class="ul">
+            <li class="list1"><img src="itachi.jpeg" width="800" height="800" ></li>
+            <li class="list2"><img src="yon.jpg"  width="800" height="800" ></li>
+            <li class="list3"><img src="yona.jpg"  width="800" height="800"></li>
+            <li class="list4"><img src="nasa.jpg"  width="800" height="800" ></li>
+         </ul>
+    </div>
+</body>
+</html>
